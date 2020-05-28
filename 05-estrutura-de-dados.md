@@ -599,7 +599,7 @@ A função `append()` só consegue inserir um elemento por vez. Se quisermos ins
     >>> lista + ['seis']
     ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis']
     >>> lista * 2
-    ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis']
+    ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'zero', 'um', 'dois', 'três', 'quatro', 'cinco']
 ```
 
   
