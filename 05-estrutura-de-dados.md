@@ -994,7 +994,7 @@ Vamos tentar resolver alguns desafios. Dada a lista = [12, -2, 4, 8, 29, 45, 78,
         for index in range(0, len(lista)):
             #... seu código aqui
             #Media de elementos
-            mediaElementos =+ mediaElementos + lista[index]
+            mediaElementos = mediaElementos + lista[index]
         mediaElementos = mediaElementos / len(lista)
         
         print(mediaElementos)
