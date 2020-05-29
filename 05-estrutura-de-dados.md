@@ -967,8 +967,9 @@ Vamos tentar resolver alguns desafios. Dada a lista = [12, -2, 4, 8, 29, 45, 78,
             #... seu código aqui
             #Numeros pares
             if( lista[index] % 2 == 0):
-                listaPares.append(lista[index]) 
-            print(listaPares)
+                listaPares.append(lista[index])
+
+        print(listaPares)
     ```
 
 1. Para resolver o item `d`, é preciso verificar se o item atual da lista a ser percorrida coincide com o elemento em seu primeiro índice:
