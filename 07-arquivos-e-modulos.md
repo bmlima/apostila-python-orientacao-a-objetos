@@ -284,7 +284,7 @@ Sabendo disso, vamos implementar esse código no nosso jogo.
         palavras = []
 
         for linha in arquivo:
-            linha - linha.strip()
+            linha = linha.strip()
             palavras.append(linha)
 
         arquivo.close()
