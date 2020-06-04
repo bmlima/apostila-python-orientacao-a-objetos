@@ -142,7 +142,7 @@ Essa ambiguidade é conhecida como o problema do diamante, ou problema do losang
 Toda classe tem um atributo `__mro__` que retorna uma tupla de referências das superclasses na ordem MRO - da classe atual até a classe `object`. Vejamos o MRO da classe `D`:
 
 ``` python
-print(D.mro())
+print(D.__mro__)
 ```
 
 Saída:
